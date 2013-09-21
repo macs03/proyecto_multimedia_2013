@@ -127,6 +127,13 @@ div.etilogo{
 	font-size: medium;	
 	padding-bottom: 1px;
 }
+button.botonini{
+	position: absolute;
+	background-color:transparent;
+	top:200px;
+	left:20px;
+}
+
 
 /*propiedades del chef*/
 div.orden{
@@ -134,7 +141,7 @@ div.orden{
 	margin-right: auto;
 	width: 920px;
 	height: 300px;
-	overflow: scroll;
+	overflow-y: scroll;
 	padding-top: 10px;
 }
 div.orden1{
@@ -142,22 +149,33 @@ div.orden1{
 	margin-right: auto;
 	width: 900px;
 	height: 100px;
-	background-color: #CC0000;
+	background: #990000;
+	/*background-color: #CC0000;*/
 	border-radius: 5px;
 	padding-top: 5px;
 }
 div.implato{
 	width: 150px;
 	height: 60px;
-	background-color: #CCFF00;
+	background: #ffcc33; 
+	background:url(Imagenes/salmon.jpg);
 	margin-left: 20px;
+	border-top-width: 0px;
+  
+  
+ 
 }
 div.nmplato{
 	width: 450px;
 	height: 60px;
-	color: #CCFF00;
+	color: #ffcc33;
 	margin-left: 190px;
-	margin-top: -110px;
+	margin-top: -100px;
+	font-family: "LiberatorRegular",sans-serif;
+}
+p.mesas{
+	color: #ffeba3;
+	margin-top: -20px;
 }
 p.nmpl{
 	text-decoration: none;
@@ -167,15 +185,17 @@ p.nmpl{
 div.tmplato{
 	width: 200px;
 	height: 60px;
-	color: #CCFF00;
+	color: #ffeba3;
 	margin-left: 610px;
 	margin-top: -70px;
 }
 p.tmpl{
 	text-decoration: none;
+	font-family: "LiberatorRegular",sans-serif;
 	font-weight: bold;
 	font-size: xx-large;
 	color: #FFFFFF;
+	margin-top: -10px;
 }
 div.ok{
 	margin-left: 790px;
@@ -189,11 +209,12 @@ a.boton{
 	padding: 4px 8px;
 	width: 80px;
 	height: 40px;
-	background-color: #990000;
+	background-color: #660000;
 	border-color: #FFFF00;
 	color: #FFFF00;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none;	
+  	font-family: "MenschMenschBoldInline",sans-serif;
 	font-weight: bold;
 	font-size: xx-large;
 }
